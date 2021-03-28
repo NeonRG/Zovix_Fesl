@@ -34,8 +34,8 @@ func main() {
 
 	startServer(mdb, ldb)
 
-	logrus.Println(" Fesl    Online")
-	logrus.Println(" Theater Online")
+	logrus.Println(" FeslHeroes    Online")
+	logrus.Println(" TheaterHeroes Online")
 	logrus.Println(" Magma HTTP Online")
 
 	a := make(chan bool)
