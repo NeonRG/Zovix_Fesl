@@ -16,7 +16,7 @@ var (
 type cfg struct {
 
 	// Telemetry
-	TelemetryIP    string `envconfig:"TELEMETRY_IP" default:"26.35.94.218"`
+	TelemetryIP    string `envconfig:"TELEMETRY_IP" default:"gizeh.ddns.net"`
 	TelemetryPort  int    `envconfig:"TELEMETRY_PORT" default:"13505"`
 	TelemetryToken string `envconfig:"TELEMETRY_TOKEN"`
 	LogLevel       string `envconfig:"LOG_LEVEL" default:"DEBUG"`
@@ -32,18 +32,18 @@ type cfg struct {
 
 	ThtrClientPort int    `envconfig:"THEATER_CLIENT_PORT" default:"18275"`
 	ThtrServerPort int    `envconfig:"THEATER_SERVER_PORT" default:"18056"`
-	ThtrAddr       string `envconfig:"THEATER_ADDR" default:"26.35.94.218"`
+	ThtrAddr       string `envconfig:"THEATER_ADDR" default:"gizeh.ddns.net"`
 
-	MessengerAddr string `envconfig:"MESSENGER_ADDR" default:"26.35.94.218"`
+	MessengerAddr string `envconfig:"MESSENGER_ADDR" default:"gizeh.ddns.net"`
 	LevelDBPath   string `envconfig:"LEVEL_DB_PATH" default:"_data/lvl.db"`
 }
 
 type MySQL struct {
 	UserName string `envconfig:"DATABASE_USERNAME" default:"root"`
 	Password string `envconfig:"DATABASE_PASSWORD"`
-	Host     string `envconfig:"DATABASE_HOST" default:"26.35.94.218"`
+	Host     string `envconfig:"DATABASE_HOST" default:"gizeh.ddns.net"`
 	Port     int    `envconfig:"DATABASE_PORT" default:"3306"`
-	Name     string `envconfig:"DATABASE_NAME" default:"naomi"`
+	Name     string `envconfig:"DATABASE_NAME" default:"heroes"`
 }
 
 //this is very important
