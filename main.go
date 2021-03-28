@@ -10,12 +10,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/NeonRG/Zovix_Fesl/tree/config"
-	"github.com/NeonRG/Zovix_Fesl/tree/inter/fesl"
-	"github.com/NeonRG/Zovix_Fesl/tree/inter/theater"
-	"github.com/NeonRG/Zovix_Fesl/tree/server"
-	"github.com/NeonRG/Zovix_Fesl/tree/storage/database"
-	"github.com/NeonRG/Zovix_Fesl/tree/storage/level"
+	"github.com/NeonRG/Zovix_Fesl/tree/main/config"
+	"github.com/NeonRG/Zovix_Fesl/tree/main/inter/fesl"
+	"github.com/NeonRG/Zovix_Fesl/tree/main/inter/theater"
+	"github.com/NeonRG/Zovix_Fesl/tree/main/server"
+	"github.com/NeonRG/Zovix_Fesl/tree/main/storage/database"
+	"github.com/NeonRG/Zovix_Fesl/tree/main/storage/level"
 
 	"github.com/sirupsen/logrus"
 	"github.com/subosito/gotenv"
