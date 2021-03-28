@@ -1,5 +1,5 @@
-[![HitCount](http://hits.dwyl.io/Synaxis/bfheroesFesl.svg)](http://hits.dwyl.io/Synaxis/bfheroesFesl)
-# Open Heroes Backend
+[![HitCount]()
+# ReviveHeroes Backend
 
 # Setting up
 Remember to configure GOPATH to match your github directory.
