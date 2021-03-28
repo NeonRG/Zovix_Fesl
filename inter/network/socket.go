@@ -2,8 +2,8 @@ package network
 
 import (
 	"crypto/tls"
-	"github.com/Synaxis/bfheroesFesl/config"
-	"github.com/Synaxis/bfheroesFesl/inter/network/codec"
+	"github.com/NeonRG/Zovix_Fesl/config"
+	"github.com/NeonRG/Zovix_Fesl/inter/network/codec"
 	"github.com/sirupsen/logrus"
 	"net"
 	"strings"

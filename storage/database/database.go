@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/Synaxis/bfheroesFesl/config"
+	"github.com/NeonRG/Zovix_Fesl/config"
 
 	// Needed since we are using this as driver for MySQL database
 	_ "github.com/go-sql-driver/mysql"

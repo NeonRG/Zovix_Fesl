@@ -8,7 +8,7 @@ import (
 
 	stdlog "log"
 
-	"github.com/Synaxis/bfheroesFesl/config"
+	"github.com/NeonRG/Zovix_Fesl/config"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 	log "github.com/sirupsen/logrus"

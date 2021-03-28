@@ -6,14 +6,14 @@ import (
 	"encoding/hex"
 
 	"fmt"
-	"github.com/Synaxis/bfheroesFesl/inter/network/codec"
+	"github.com/NeonRG/Zovix_Fesl/inter/network/codec"
 	"io"
 	"net"
 	"strings"
 	"sync"
 	"time"
 
-	"github.com/Synaxis/bfheroesFesl/storage/level"
+	"github.com/NeonRG/Zovix_Fesl/storage/level"
 
 	"github.com/sirupsen/logrus"
 )

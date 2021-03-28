@@ -4,9 +4,9 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/Synaxis/bfheroesFesl/inter/mm"
-	"github.com/Synaxis/bfheroesFesl/inter/network"
-	"github.com/Synaxis/bfheroesFesl/inter/network/codec"
+	"github.com/NeonRG/Zovix_Fesl/inter/mm"
+	"github.com/NeonRG/Zovix_Fesl/inter/network"
+	"github.com/NeonRG/Zovix_Fesl/inter/network/codec"
 	"github.com/sirupsen/logrus"
 )
 

@@ -3,7 +3,7 @@ package theater
 import (
 	"strconv"
 
-	"github.com/Synaxis/bfheroesFesl/inter/network"
+	"github.com/NeonRG/Zovix_Fesl/inter/network"
 
 	"github.com/sirupsen/logrus"
 )

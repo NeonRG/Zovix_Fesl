@@ -1,7 +1,7 @@
 package theater
 
 import (
-	"github.com/Synaxis/bfheroesFesl/inter/network"
+	"github.com/NeonRG/Zovix_Fesl/inter/network"
 	"github.com/sirupsen/logrus"
 	"strings"
 )

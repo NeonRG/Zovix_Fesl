@@ -3,8 +3,8 @@ package fesl
 import (
 	"database/sql"
 	"fmt"
-	"github.com/Synaxis/bfheroesFesl/inter/network"
-	"github.com/Synaxis/bfheroesFesl/storage/level"
+	"github.com/NeonRG/Zovix_Fesl/inter/network"
+	"github.com/NeonRG/Zovix_Fesl/storage/level"
 	"strings"
 	"time"
 
